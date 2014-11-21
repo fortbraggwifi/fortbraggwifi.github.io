@@ -38,7 +38,7 @@ function init() {
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
-        zoom: 15,
+        zoom: 16,
 
         // The latitude and longitude to center the map (always required)
         center: new google.maps.LatLng(39.4458, -123.8053), // New York
@@ -166,13 +166,28 @@ function init() {
 
     // Create the Google Map using out element and options defined above
     var map = new google.maps.Map(mapElement, mapOptions);
-
+    // Pine+Franklin = 39.446731, -123.804518
+    // Redwood and Franklin = 39.444204, -123.804523
+    // Redwood and Main = 39.444208, -123.806030
+    // Pine and Main = 39.444208, -123.806030
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     var image = 'img/map-marker.png';
     var myLatLng = new google.maps.LatLng(39.4458, -123.8053);
-    var beachMarker = new google.maps.Marker({
-        position: myLatLng,
-        map: map,
-        icon: image
+    //var beachMarker = new google.maps.Marker({
+    //    position: myLatLng,
+    //    map: map,
+    //    icon: image  
+    //});
+    var rectangle = new google.maps.Rectangle({
+    strokeColor: '#428BCA',
+    strokeOpacity: 0.8,
+    strokeWeight: 2,
+    fillColor: '#428BCA',
+    fillOpacity: 0.35,
+    map: map,
+    bounds: new google.maps.LatLngBounds(
+      new google.maps.LatLng(39.444, -123.807),
+      new google.maps.LatLng(39.447, -123.8044))
+
     });
 }
