@@ -248,6 +248,10 @@ a:focus {
     }
 }
 
+.assumptions {
+  font-size: 18px
+}
+
 .content-section {
     padding-top: 100px;
 }
