@@ -29,6 +29,15 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+$('a.color-change').click(function() {
+  var color = $("body").css("background-color");
+  if (color == "rgb(0, 0, 0)") {
+  $("body").css({"background-color": "#fff", "color": "#000"});
+  } else {
+  $("body").css({"background-color": "#000", "color": "#fff"});
+  }   
+  }); 
+
 // Google Maps Scripts
 // When the window has finished loading create our google map below
 google.maps.event.addDomListener(window, 'load', init);
