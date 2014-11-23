@@ -1,17 +1,9 @@
+## Fort Bragg Wireless Project 
+Site page for the Fort Bragg WiFi project.
+Site Admin + Creator: John Naulty Jr.
+Hosted (for Free) courtesy of GitHub.
 
-## Fort Bragg Wireless Project
-
-Site page.
-
-
-
-## Creator
-
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
-
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
+Original Website Design (Modified for this project by John Naulty):
 Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
 ## Copyright and License
