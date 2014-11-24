@@ -341,6 +341,10 @@ ul.banner-social-buttons {
     }
 }
 
+#example-list {
+  padding-top: 75px;
+}
+
 footer {
     padding: 50px 0;
 }
